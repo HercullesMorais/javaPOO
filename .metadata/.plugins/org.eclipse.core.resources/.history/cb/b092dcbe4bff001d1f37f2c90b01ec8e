@@ -1,0 +1,12 @@
+package entities;
+
+public class Pessoas {
+	
+	public String nome;
+	public String sexo;
+	public int idade;
+	
+	
+	
+	
+}
