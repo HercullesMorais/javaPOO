@@ -16,14 +16,16 @@ public class ProgramTriangulo {
 		
 		System.out.println("Entre com primeiro lado do triângulo: ");
 		triangulo.x = sc.nextDouble();
+		
 		System.out.println("Entre com primeiro lado do triângulo: ");
 		triangulo.y = sc.nextDouble();
+		
 		System.out.println("Entre com primeiro lado do triângulo: ");
 		triangulo.z = sc.nextDouble();
 		
 		System.out.println(triangulo.calc());
 		
-		
+		sc.close();
 	}
 
 }
