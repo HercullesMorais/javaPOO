@@ -11,6 +11,9 @@ public class Program {
 		Scanner sc =  new Scanner(System.in);
 		Funcionario funcionario = new Funcionario();
 		
+		System.out.print("Qual seu nome?: ");
+		funcionario.nome = sc.next();
+		 
 		System.out.println("Entre com seu cargo: ");
 		funcionario.cargo = sc.next();
 		
