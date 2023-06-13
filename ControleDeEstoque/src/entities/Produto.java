@@ -5,7 +5,23 @@ public class Produto {
 
 	private String descricao;
 	private double preco;
-	private int quantidade;
+	private double quantidade;
+
+	
+	
+	public Produto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Produto(String descricao, double preco, int quantidade) {
+		super();
+		this.descricao = descricao;
+		this.preco = preco;
+		this.quantidade = quantidade;
+	}
+
+
 
 	public String getDescricao() {
 		return descricao;
@@ -23,7 +39,7 @@ public class Produto {
 		this.preco = preco;
 	}
 
-	public int getQuantidade() {
+	public double getQuantidade() {
 		return quantidade;
 	}
 
