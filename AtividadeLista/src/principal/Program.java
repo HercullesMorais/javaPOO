@@ -16,19 +16,18 @@ public class Program {
 		char opcao;
 		
 		do {
-			p = new Pessoa("", 0, "");
+			
 			
 			System.out.println("Entre com um nome: ");
 			String nome = sc.nextLine();
-			p.setNome(nome);
+		
 			
 			System.out.println("Entre com o telefone: ");
 			String telefone = sc.nextLine();
-			p.setTelefone(telefone);
 			
 			System.out.println("Entre com a idade: ");
 			int idade = sc.nextInt();
-			p.setIdade(idade);
+			
 			
 			
 			 p = new Pessoa(nome, idade, telefone);
@@ -46,6 +45,7 @@ public class Program {
 		
 		for(Pessoa a : adicionar) {
 			System.out.println(a);
+			System.out.println("\n");
 		}
 		
 		
