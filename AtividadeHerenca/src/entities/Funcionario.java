@@ -52,12 +52,12 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	
-	public void bonus(double sal) {
+	public void bonus(double salario) {
 		if(departamento.equals("gerente")) {
-			salario += sal;
+			this.salario += salario;
 		}
 		else {
-			  salario += sal;
+			  this.salario += salario;
 		}
 		
 	}

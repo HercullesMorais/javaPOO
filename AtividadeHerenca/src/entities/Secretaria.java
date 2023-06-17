@@ -11,10 +11,10 @@ public class Secretaria extends Funcionario{
 		super(nome, sexo, idade, departamento, salario);
 		// TODO Auto-generated constructor stub
 	}
-	public void bonus(double sal) {
+	public void bonus(double salario) {
 		
 	
-			salario = sal + 150;
+			this.salario = salario + 150;
 		
 		
 		
